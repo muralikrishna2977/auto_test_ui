@@ -4,7 +4,7 @@ import ElementName from "./custom/ElementName";
 import DataValue from "./custom/DataValue";
 import Dropdown from "./custom/Dropdown";
 import Select from "react-select";
-import "./NewTestCaseBuilder.css";
+import "./NewTestcaseBuilder.css";
 import THREE_DOTS from "../assets/three-dots.svg";
 
 import axiosInstance from "../axios.js";
