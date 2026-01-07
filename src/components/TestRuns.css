@@ -1,0 +1,114 @@
+.testruns-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: 100%;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 10px;
+  padding-top: 0px;
+  /* border-radius: 6px; */
+  margin-top: 10px;
+  background: #fafafa;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.run-btn {
+  padding: 7px 12px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #ff6f00;
+}
+
+.report-btn {
+  padding: 7px 12px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #007bff;
+}
+
+.stop-run-btn {
+  background: #ff1d1d;
+}
+
+input,
+select {
+  width: 70%;
+}
+
+.right-panel {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox p {
+  margin: 0;
+}
+
+.browsers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.browsers h4 {
+  margin-top: 0;
+}
+
+.modes-controll {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+}
+
+.disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  cursor: not-allowed;
+}
+
+.history {
+  height: 100%;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+

@@ -1,0 +1,110 @@
+/* .testcase-builder-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  height: 100%;
+} */
+
+.new-testcase-builder-container {
+  display: grid;
+  /* grid-template-columns: 0.5fr 0.5fr 1fr; */
+  grid-template-columns: 0.5fr 1.5fr;
+  height: 100%;
+}
+
+.testcase-form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.testcase-form-section select, input{
+  width: 100%;
+}
+.testcase-form-section h2{
+  margin-top: 0;
+}
+
+.pannel3-testcases{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f3f3f3;
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.pannel3-testcases h3{
+  margin: 0;
+}
+
+.react_select{
+  width: 100%;
+}
+
+.allSteps{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.scn_heading{
+  color: red;
+}
+
+
+.add-btn,
+.small-btn,
+.save-btn {
+  padding: 7px 12px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-btn {
+  background: #007bff;
+}
+.small-btn {
+  background: #28a745;
+}
+.save-btn {
+  background: #ff6f00;
+}
+
+.new-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 30px; */
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+
+.active-p {
+  padding: 7px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.inactive-p {
+  padding: 7px 12px;
+  background-color: #898888;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

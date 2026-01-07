@@ -1,0 +1,140 @@
+.newTestCase-container{
+  display: grid;
+  /* grid-template-columns: 0.8fr 1.5fr 1fr; */
+  grid-template-columns: 1fr 2fr;
+  height: 100%;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+.newTestcasePannel1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.newTestcasePannel1 input{
+  width: 100%;
+}
+.newTestcasePannel1 select{
+  width: 100%;
+}
+.newTestcasePannel2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f3f3f3;
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.newTestcasePannel3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* background: #f3f3f3; */
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.english-preview{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.all-scenarios{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.preview-page {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.preview-step {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.primary{
+  background: #2684ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.primary:hover{
+  background: #1e6fff;
+}
+
+.secondary{
+  border: none;
+  margin-left: 15px;
+  background: #6b6b6b;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.secondary:hover{
+  background: #585859;
+}
+
+/* .edit-indicator{
+  margin-left: 38px;
+}
+
+.insert-indicator{
+  margin-left: 38px;
+} */
+
+.buttons-container-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttons-container-3{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.buttons-container-3 p{
+  margin: 0;
+}
+
+
+.headingSave{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

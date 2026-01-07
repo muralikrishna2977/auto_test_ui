@@ -1,0 +1,150 @@
+.page-builder-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-columns: 1fr 6px 1fr; */
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.resizer {
+  cursor: col-resize;
+  background-color: #e5e5e5;
+  position: relative;
+}
+
+.resizer:hover {
+  background-color: #cfcfcf;
+}
+
+.resizer::after {
+  /* content: "↔"; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.page-preview-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f3f3f3;
+  padding: 15px;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.page-element-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+.page-elements-container {
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 50%;
+  padding: 7px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.add-btn,
+.save-btn {
+  padding: 7px 12px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-btn {
+  background: #007bff;
+}
+.save-btn {
+  background: #ff6f00;
+}
+
+.remove-btn{
+  margin-bottom: 10px;
+}
+
+.active-p {
+  padding: 7px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.inactive-p {
+  padding: 7px 12px;
+  background-color: #898888;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* margin-bottom: 20px; */
+  /* margin-top: 10px; */
+}
+
+.page-jsonView {
+  font-size: 14px;
+  line-height: 1.4;
+  height: 100%;
+  overflow-y: auto;
+  margin: 0;
+  width: 100%;
+}
+
+.eachPageView{
+  width: 100%;
+  margin-bottom: 40px;
+}
